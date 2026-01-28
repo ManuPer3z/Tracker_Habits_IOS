@@ -11,8 +11,6 @@ import SwiftUI
 @main
 struct MakiBundle: WidgetBundle {
     var body: some Widget {
-        Maki()
-        MakiControl()
-        MakiLiveActivity()
+        HabitWidget()
     }
 }
